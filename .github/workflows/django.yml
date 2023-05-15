@@ -67,8 +67,6 @@ jobs:
           python manage.py test
 
   custom-deploy:
-     The `needs` is added to bypass:
-     "Your account has reached its concurrent builds limit"
     needs: build
     runs-on: ubuntu-latest
     steps:
