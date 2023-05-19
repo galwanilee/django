@@ -80,6 +80,9 @@ TEMPLATES = [
 
 WSGI_APPLICATION = 'test_may_django.wsgi.application'
 
+ALLOWED_HOSTS = [
+    '5.183.11.218'
+]
 
 # Database
 # https://docs.djangoproject.com/en/4.2/ref/settings/#databases
